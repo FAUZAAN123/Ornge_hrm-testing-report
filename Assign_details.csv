@@ -1,0 +1,20 @@
+S.NO,TEST CASE ID,TEST SCENARIO,TEST CASE TITLE,TEST STEPS,TEST DATA,ACTUAL RESULT,EXPECTED RESULT,STATUS
+1,TC_01(LEAVE),VERIFY LEAVE,"VERIFY LEAVE MODULE ALL THE FUNCTIONS
+ALL ARE DISPLAYED CORRECTLY","STEP1:GO TO URL
+https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList
+STEP2:USER ABLE TO SEE ALL 
+FUNCTIONS OF LEAVE MODULE",,,,
+2,TC_02(LEAVE),VERIFY LEAVE,VERIFY ASSIGN LEAVE,"STEP1:GO TO URL
+https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList
+Login to OrangeHRM as Admin or Manager
+STEP2:Enter Employee Name (e.g:- FAUZAN)
+STEP3:Select Leave Type (e.g:- Sick ,OR ANY prob;em)
+STEP4:Enter From Date and To DATE
+STEP5:Click the Assign button",,,,
+3,TC_03(LEAVE),VERIFY LEAVE,"Verify that leave requests 
+are correctly listed and filterable","
+STEP1:CLICK ON URL 
+https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList
+STEP2: Enter date range and filter criteria
+STEP3:Click Search",,,,
+,,,,,,,,
